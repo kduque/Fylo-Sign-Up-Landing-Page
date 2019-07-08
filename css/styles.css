@@ -66,17 +66,20 @@ h1{
 
   .email-box{
     border-radius: 10px;
-    width: 60%;
+    max-width: 65%;
+    width: 350px;
     height: 50px;
     line-height: 2em; /*(2 * default line height)*/
-    box-shadow: 2px 4px #888888;
+    /*box-shadow: 2px 4px #888888;
     border-color: #fff;
-    border-style: solid;
+    border-style: solid; */
+    border: none;
   }
 
   .sign-up-btn{
     border-radius: 10px;
-    width: 30%;
+    max-width: 30%;
+    width: 100px;
     height: 50px;
     background-color: #05D69B;
     border: none;
@@ -84,6 +87,7 @@ h1{
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 15px;
+    margin-left: 45px;
   }
 
 }
