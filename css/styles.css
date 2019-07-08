@@ -1,0 +1,89 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  margin: 0;
+
+}
+
+h1{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+
+/*
+.animation-box-left{
+  background-image: linear-gradient(45deg, #3e54a3, #332c89);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  height:100vh;
+}*/
+
+@media (max-width: 375px) {
+  .animation-box{
+    background-image: url("../images/bg-intro.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    /*width: 100vw;*/
+    height: 70vh;
+  }
+}
+@media (min-width: 376px) {
+  .animation-box{
+    background-image: linear-gradient(45deg, #BBB8FA, #070439);
+    width: 46%; /* 46% of the screen width */
+    height: auto; /*purple background box takes height of image*/
+    display: inline-block;
+  }
+
+  .illustration-main{
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    width: 60%;
+    height: auto;
+    padding-top: 32%;
+    padding-bottom: 32%;
+  }
+
+  .information-box{
+    width: 54%;
+    height: auto;
+    display: inline-block;
+    background-color: grey;
+    position: absolute;
+    top: 0;
+  }
+
+  .text-container{
+  /*  padding-top: 40%;
+    padding-bottom: 40%;*/
+    width: 70%;
+    margin: auto;
+  }
+
+  .email-box{
+    border-radius: 10px;
+    width: 60%;
+    height: 50px;
+    line-height: 2em; /*(2 * default line height)*/
+    box-shadow: 2px 4px #888888;
+    border-color: #fff;
+    border-style: solid;
+  }
+
+  .sign-up-btn{
+    border-radius: 10px;
+    width: 30%;
+    height: 50px;
+    background-color: #05D69B;
+    border: none;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+  }
+
+}
