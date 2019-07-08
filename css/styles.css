@@ -62,6 +62,8 @@ h1{
     padding-bottom: 40%;*/
     width: 70%;
     margin: auto;
+    position: relative;
+    line-height: 2em;
   }
 
   .email-box{
@@ -87,7 +89,17 @@ h1{
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 15px;
-    margin-left: 45px;
+    position: absolute;
+    right: 0;
+  }
+
+  .social-media-container{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    font-size: 20px;
+
+
   }
 
 }
