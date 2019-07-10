@@ -1,6 +1,6 @@
 body{
   font-family: 'Open Sans', sans-serif;
-  font-weight: 700;
+  font-weight: 400;
   margin: 0;
 
 }
@@ -44,26 +44,36 @@ h1{
     margin: auto;
     width: 60%;
     height: auto;
-    padding-top: 32%;
-    padding-bottom: 32%;
+    padding-top: 30.5%;
+    padding-bottom: 30.5%;
   }
 
   .information-box{
     width: 54%;
     height: auto;
     display: inline-block;
-    background-color: grey;
     position: absolute;
     top: 0;
   }
 
   .text-container{
-  /*  padding-top: 40%;
-    padding-bottom: 40%;*/
+
     width: 70%;
-    margin: auto;
     position: relative;
-    line-height: 2em;
+    margin: 10% auto;
+  }
+
+  .heading{
+    line-height: 1.2em;
+    margin-top: 23%;
+    margin-bottom: 7%;
+  }
+
+  .description{
+    line-height: 1.5em;
+    color: #808080;
+    font-size: 15px;
+    margin-bottom: 10%;
   }
 
   .email-box{
@@ -72,10 +82,13 @@ h1{
     width: 350px;
     height: 50px;
     line-height: 2em; /*(2 * default line height)*/
-    /*box-shadow: 2px 4px #888888;
-    border-color: #fff;
-    border-style: solid; */
-    border: none;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+  }
+
+  .sign-up{
+    margin-bottom: 23%;
   }
 
   .sign-up-btn{
@@ -84,7 +97,7 @@ h1{
     width: 100px;
     height: 50px;
     background-color: #05D69B;
-    border: none;
+    border-color: #05D69B;
     color: #fff;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
@@ -98,8 +111,18 @@ h1{
     position: absolute;
     right: 0;
     font-size: 20px;
+  }
 
+  .social-media-container > i{
+    margin-left: 30px;
 
+  }
+
+  .privacy-policy{
+    text-decoration: underline;
+    position: absolute;
+    right: 0;
+    font-size: 13px;
   }
 
 }
